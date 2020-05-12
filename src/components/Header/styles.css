@@ -1,0 +1,12 @@
+#navigation {
+  display: none;
+}
+
+@media only screen and (min-width: 480px) {
+  .bi-list {
+    display: none;
+  }
+  #navigation {
+    display: block;
+  }
+}
