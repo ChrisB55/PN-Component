@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import "./styles.css"
 
 export default () => (
@@ -46,19 +47,19 @@ export default () => (
                       <a href="/">Home</a>
                     </li>
                     <li>
-                      <a href="about">About</a>
+                      <Link to="about">About</Link>
                     </li>
                     <li>
-                      <a href="services">Services</a>
+                      <Link to="services">Services</Link>
                     </li>
                     <li>
-                      <a href="clients">Clients</a>
+                      <Link to="clients">Clients</Link>
                     </li>
                     <li>
-                      <a href="testimonals">Testimonials</a>
+                      <Link to="testimonals">Testimonials</Link>
                     </li>
                     <li>
-                      <a href="#contact">Contact Us</a>
+                      <Link to="#contact">Contact Us</Link>
                     </li>
                   </ul>
                 </nav>
