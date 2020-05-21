@@ -1,12 +1,37 @@
-#navigation {
-  display: none;
+nav {
+  position: relative;
 }
 
+.hamburger {
+  cursor: pointer;
+  right: 22%;
+  top: 50%;
+  transform: translate(-22%, -50%);
+  z-index: 2;
+}
+.line {
+  width: 30px;
+  height: 3px;
+  background: black;
+  margin: 5px;
+}
+
+.mobileActive {
+  display: block;
+}
+
+.mobileNone {
+  display: none;
+}
 @media only screen and (min-width: 480px) {
   .bi-list {
     display: none;
   }
-  #navigation {
+  .line {
+    display: none;
+  }
+
+  .mobileNone {
     display: block;
   }
 }
