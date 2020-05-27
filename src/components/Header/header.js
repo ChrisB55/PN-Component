@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { Link } from "gatsby"
 import "./styles.css"
 /* React / Gatsby 
- 1)  useState hook for activing mobile menu. 
+1)  useState hook for activing mobile menu. 
 2) Use LINK to replace conventional navigation.
 Markup primarily from legacy project.
 */
@@ -47,22 +47,21 @@ export default function Header() {
                       id="navigation"
                       className={mobileMenu ? "mobileActive" : "mobileNone"}
                     >
-                      <figure></figure>
                       <li class="active">
                         <a href="/">Home</a>
                       </li>
                       <li>
                         <Link to="about">About</Link>
                       </li>
-                      <li>
+                      {/*<li>
                         <Link to="services">Services</Link>
-                      </li>
+                      </li> 
                       <li>
                         <Link to="clients">Clients</Link>
                       </li>
                       <li>
                         <Link to="testimonals">Testimonials</Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link to="#contact">Contact Us</Link>
                       </li>

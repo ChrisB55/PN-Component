@@ -23,6 +23,7 @@ nav {
 .mobileNone {
   display: none;
 }
+
 @media only screen and (min-width: 480px) {
   .bi-list {
     display: none;
@@ -33,5 +34,15 @@ nav {
 
   .mobileNone {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .right-area ul li {
+    display: block !important;
+  }
+
+  .header-nav {
+    text-align: center;
   }
 }
